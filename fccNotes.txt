@@ -1,0 +1,9 @@
+regular expressions
+    character classes- /b[aiu]g/ would return big bag bug, but not bog or beg
+        define a group of characters you want to match by placing inside []
+        built in [letter-letter] range for the alphabet
+            also works for numbers.
+            for mixed values, letters first, then numbers, with no spaces all in one bracket set
+    
+    flags: g, or global, finds all. i ignores case. plus sign, or +,  checks to see if the char is one or more times. asterisk, *, checks if something occurs zero or more times 
+    carat symbol, ^, creates a negated char set. [^dku] would return all char not dku
